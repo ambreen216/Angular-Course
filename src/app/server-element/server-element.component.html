@@ -1,0 +1,9 @@
+<div class="panel panel-default">
+  <div class="panel-heading">{{ element.username }}</div>
+  <div class="panel-body">
+    <p>
+      <strong *ngIf="element.type === 'user'" style="color: red">{{element.password}}</strong>
+<!--      <em *ngIf="element.type === 'blueprint'">{{ element.content }}</em>-->
+    </p>
+  </div>
+</div>
